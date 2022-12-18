@@ -1,54 +1,59 @@
-const filtrar = require('../09.js');
+const filtrar = require("../09.js");
 
-var personas =[
+var personas = [
   {
-    nombre: 'Emi',
+    nombre: "Emi",
     edad: 21,
-    hobbies: ['correr', 'dormir', 'nadar'],
-    amigos: [
-      { 
-        nombre: 'Martin',
-      },{
-        nombre: 'Leo',
-      }
-    ],
-  }, {
-    nombre: 'Franco',
-    edad: 22,
-    hobbies: ['futbol', 'golf'],
+    hobbies: ["correr", "dormir", "nadar"],
     amigos: [
       {
-        nombre: 'Emi',
-      }, {
-        nombre: 'Jimmy',
-      }, {
-        nombre: 'Matias',
-      }
+        nombre: "Martin",
+      },
+      {
+        nombre: "Leo",
+      },
     ],
   },
   {
-    nombre: 'Martin',
-    edad: 35,
-    hobbies: ['Cancha', 'emprender'],
+    nombre: "Franco",
+    edad: 22,
+    hobbies: ["futbol", "golf"],
     amigos: [
       {
-        nombre: 'Toni',
-      }, {
-        nombre: 'Leo',
-      }, {
-        nombre: 'Manu',
-      }
+        nombre: "Emi",
+      },
+      {
+        nombre: "Jimmy",
+      },
+      {
+        nombre: "Matias",
+      },
+    ],
+  },
+  {
+    nombre: "Martin",
+    edad: 35,
+    hobbies: ["Cancha", "emprender"],
+    amigos: [
+      {
+        nombre: "Toni",
+      },
+      {
+        nombre: "Leo",
+      },
+      {
+        nombre: "Manu",
+      },
     ],
   },
 ];
 
-
-describe('Filter', function() {
+describe("Filter", function () {
   filtrar();
-  it('should filter', function() {
-    expect(personas.filtrar(p => p.edad <= 22).length).toBe(2);
-  })
-  it('should filter ok', function() {
-    expect(personas.filtrar(p => p.edad > 50).length).toBe(0);
-  })
-})
+  it("should filter", function () {
+    expect(personas.filtrar((p) => p.edad <= 22).length).toBe(2);
+  });
+  it("should filter ok", function () {
+    expect(personas.filtrar((p) => p.edad > 50).length).toBe(0);
+  });
+});

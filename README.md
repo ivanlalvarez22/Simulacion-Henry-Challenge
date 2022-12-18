@@ -46,13 +46,13 @@ npm test
 
 Tu tarea es que pasen la mayoría de los test, completando los siguientes archivos:
 
--  `01.js`
--  `02.js`
--  `03.js`
--  `04.js`
--  `05.js`
--  `06-07-08.js`
--  `09.js`
+- `01.js`
+- `02.js`
+- `03.js`
+- `04.js`
+- `05.js`
+- `06-07-08.js`
+- `09.js`
 
 ### **_4. ENTREGAR LA PRUEBA TÉCNICA_**
 
@@ -134,11 +134,11 @@ git push origin main
 
 Te compartimos un poco de documentación para facilitarte algunas respuestas. ¡Pero puedes investigar en todos los lados que tu quieras!
 
--  [String](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
--  [Array](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
--  [Object](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object)
--  [Class](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes)
--  [Prototypes](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Object_prototypes)
+- [String](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [Array](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Object](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- [Class](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes)
+- [Prototypes](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Object_prototypes)
 
 ---
 
